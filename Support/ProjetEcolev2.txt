@@ -1,0 +1,27 @@
+Table1 Mutation
+id_mutation : Identifiant de mutation (non stable, sert à grouper les lignes)
+date_mutation : Date de la mutation au format ISO-8601 (YYYY-MM-DD)
+numero_disposition : Numéro de disposition
+valeur_fonciere : Valeur foncière (séparateur décimal = point)
+
+Table2 Cadastre
+adresse_nom_voie : Nom de la voie de l'adresse
+nom_commune : Nom de la commune (accentué)
+code_departement : Code département INSEE (2 ou 3 caractères)
+id_parcelle : Identifiant de parcelle (14 caractères)
+ancien_id_parcelle : Ancien identifiant de parcelle (si différent lors de la mutation)
+numero_volume : Numéro de volume
+lot_1_numero : Numéro du lot 1
+longitude : Longitude du centre de la parcelle concernée (WGS-84)
+latitude : Latitude du centre de la parcelle concernée (WGS-84)
+
+Table4 Bien
+code_type_local : Code de type de local
+type_local : Libellé du type de local
+surface_reelle_bati : Surface réelle du bâti
+nombre_pieces_principales : Nombre de pièces principales
+code_nature_culture : Code de nature de culture
+nature_culture : Libellé de nature de culture
+code_nature_culture_speciale : Code de nature de culture spéciale
+nature_culture_speciale : Libellé de nature de culture spéciale
+surface_terrain : Surface du terrain
