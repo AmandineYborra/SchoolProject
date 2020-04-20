@@ -6,3 +6,5 @@ matplotlib
 statsmodels
 jupyterlab
 seaborn
+xgboost
+flask
