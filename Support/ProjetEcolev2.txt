@@ -15,7 +15,7 @@ lot_1_numero : Numéro du lot 1
 longitude : Longitude du centre de la parcelle concernée (WGS-84)
 latitude : Latitude du centre de la parcelle concernée (WGS-84)
 
-Table4 Bien
+Table3 Bien
 code_type_local : Code de type de local
 type_local : Libellé du type de local
 surface_reelle_bati : Surface réelle du bâti
